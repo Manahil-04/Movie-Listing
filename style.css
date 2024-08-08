@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.movie {
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(33% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.movie img {
+    max-width: 100%;
+    border-radius: 5px;
+}
